@@ -1,0 +1,21 @@
+Source: libsimple-http-java
+Section: java
+Priority: extra
+Maintainer: Rich Lane <rlane@bigswitch.com>
+Build-Depends: debhelper (>= 7.0.50~), javahelper (>=0.25)
+Build-Depends-Indep: default-jdk, default-jdk-doc
+Standards-Version: 3.9.3
+
+Package: libsimple-http-java
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Recommends: ${java:Recommends}
+Description: Simple HTTP Framework
+ You should probably write something else here
+
+Package: libsimple-http-java-doc
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Recommends: ${java:Recommends}
+Description: Simple HTTP Framework (documentation)
+ You should probably write something else here
