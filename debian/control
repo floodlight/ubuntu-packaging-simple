@@ -14,6 +14,7 @@ Description: Simple HTTP Framework
  You should probably write something else here
 
 Package: libsimple-http-java-doc
+Section: doc
 Architecture: all
 Depends: ${java:Depends}, ${misc:Depends}
 Recommends: ${java:Recommends}
