@@ -8,12 +8,3 @@
     </target>
  
     <target name="prepare" depends="clean">
-@@ -22,7 +23,7 @@
- 
-    <target name="build" depends="prepare">
-        <javac target="1.5" srcdir="${source.path}" destdir="${build.path}" debug="true" debuglevel="lines,vars,source" encoding="UTF-8"/>
--      <jar jarfile="${jar.path}/simple-${version}.jar" basedir="${build.path}"/>
-+      <jar jarfile="${jar.path}/simple-http.jar" basedir="${build.path}"/>
-       <delete dir="${build.path}"/>
-    </target>
- 
