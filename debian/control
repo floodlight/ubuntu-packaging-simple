@@ -2,7 +2,7 @@ Source: libsimple-http-java
 Section: java
 Priority: extra
 Maintainer: Rich Lane <rlane@bigswitch.com>
-Build-Depends: debhelper (>= 7.0.50~), javahelper (>=0.25)
+Build-Depends: debhelper (>= 7.0.50~), javahelper (>=0.25), ant
 Build-Depends-Indep: default-jdk, default-jdk-doc
 Standards-Version: 3.9.3
 Homepage: http://www.simpleframework.org/
