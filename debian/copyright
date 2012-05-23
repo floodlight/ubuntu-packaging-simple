@@ -3,7 +3,7 @@ Upstream-Name: simple
 Source: http://simpleweb.sourceforge.net/
 
 Files: *
-Copyright: 2001 Niall Gallagher <niallg@users.sf.net>
+Copyright: 2001-2009 Niall Gallagher <niallg@users.sf.net>
 License: Apache-2.0
 
 Files: debian/*
