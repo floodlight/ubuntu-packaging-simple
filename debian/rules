@@ -4,3 +4,21 @@ JAVA_HOME=/usr/lib/jvm/default-java
 
 %:
 	dh $@ --with javahelper
+
+build:
+	dh_testdir
+	ant build javadoc
+
+binary:
+	dh_testroot
+	dh_prep
+	jh_depends
+	jh_installlibs
+	jh_installjavadoc
+	dh_installdocs
+	dh_installchangelogs
+	dh_compress
+	dh_fixperms
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
