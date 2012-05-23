@@ -11,7 +11,7 @@ Architecture: all
 Depends: ${java:Depends}, ${misc:Depends}
 Recommends: ${java:Recommends}
 Description: Simple HTTP Framework
- You should probably write something else here
+ A high-performance, embeddable Java HTTP engine.
 
 Package: libsimple-http-java-doc
 Section: doc
@@ -19,4 +19,4 @@ Architecture: all
 Depends: ${java:Depends}, ${misc:Depends}
 Recommends: ${java:Recommends}
 Description: Simple HTTP Framework (documentation)
- You should probably write something else here
+ A high-performance, embeddable Java HTTP engine.
