@@ -1,2 +1,2 @@
 version=3
-http://sf.net/simpleweb/simple-(\d+\.\d+\.\d+)\.(?:zip|tgz|tbz2|txz|tar\.gz|tar\.bz2|tar\.xz)
+http://sf.net/simpleweb/simple-(\d+\.\d+\.\d+)\.(?:zip|tgz|tbz2|txz|tar\.gz|tar\.bz2|tar\.xz) debian jh_repack
